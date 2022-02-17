@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Casa rural La mina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="shortcut icon" href="logo.jpg">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" type="image/png" href="images/logofooter.png"/>
+  </head>
+  <body>
+    <img id="logo" src="images/logo.jpg" alt="logo">
+    <nav id="inicio">
+      <div id="links">
+        <a class="nav" href="#contenedor">Inicio</a>
+        <a class="nav" href="#casa">Casa</a>
+        <a class="nav" href="#ubicacion">Ubicación</a>
+        <a class="nav" href="#sitios">Turismo</a>
+        <a class="nav" href="#fotos">Fotos</a>
+        <a class="nav call" href="tel:+34618217160" id="telefono"><img src="images/call.svg" id="call">618 217 160</a>
+        <a class="nav modcall" href="tel:+34618217160"><img src="images/call.svg" width="32px"></a>
+        <a class="nav" href="indexEn.html" id="translate"><span class="icon-translate"></span></a>
+        <a class="nav" id="burger" onclick="myFunction()"><img src="images/burger.svg" width="32px"></a>
+      </div>
+    </nav>
+    <div id="mobile">
+        <a class="nav modcall mobile" href="tel:+34618217160"><img src="images/call.svg" width="32px"></a>
+        <a class="nav mobile" href="indexEn.html" id="translate"><span class="icon-translate"></span></a>
+        <a class="nav mobile" id="burger" onclick="myFunction()"><img src="images/burger.svg" width="32px"></a>
+    </div>
+<script>
+    function myFunction() {
+  var x = document.getElementById("inicio");
+  var y = document.getElementById("mobile");
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+  } else {
+    x.style.display = "none";
+  }
+  if (x.style.display === "none") {
+    y.style.display = "inherit";
+
+  } else {
+    y.style.display = "none";
+  }
+}
+</script>
+    <header>
+      <div id="contenedor">
+        <div class="slider">
+          <img class="carousel" src="images/piscina.png" alt="imagen casa">
+        </div>
+        <div class="slider">
+          <img class="carousel" src="images/habitacionsalon.jpeg" alt="imagen casa">
+        </div>
+        <div class="slider">
+          <img class="carousel" src="images/puerta.jpeg" alt="imagen casa">
+        </div>
+      </div>
+    </header>
+      <div class="boton" id="derecha">&#62;</div>
+      <div class="boton" id="izquierda">&#60;</div>
+    <script type="text/javascript" src="slider.js"></script>
+    <article>
+      <div class="scroll" id="casa"></div>
+      <div class="titulos">
+        <img class="imgtitulos" src="images/home.svg" alt="home">
+        <h1>Información adicional de la casa</h1>
+      </div>
+      <section>
+        <div class="otros">
+          <div class="contenedorotros">
+              <img class="otrossvg" src="images/wifi.svg" alt="wifi">
+              <p>Router con acceso a Internet Wi-Fi. <br>ADSL de hasta 10Mb/s.</p>
+          </div>
+          <div class="contenedorotros">
+              <img class="otrossvg" src="images/antena.svg" alt="antena">
+              <p>Contamos con una parabolica para los canales extranjeros, además de los propios canales nativos.</p>
+          </div>
+          <div class="contenedorotros">
+            <img class="otrossvg" src="images/frio.svg" alt="frio">
+            <p>2 habitaciones cuentan con aire acondicionado. <br>Además contamos con 2 neveras.</p>
+          </div>
+        </div>
+        <div class="contenedorsvg">
+            <img class="svg" src="images/room.svg" alt="room">
+           <img class="carta" src="images/matrimonio.jpeg" alt="">
+            <p>4 habitaciones, 3 baños más uno en el exterior y 7 camas más 1 sofa cama. <br>Capacidad para 10 personas.</p>
+        </div>
+        <div class="contenedorsvg">
+          <img class="svg" src="images/beach.svg" alt="beach">
+          <img class="carta" src="images/torre.jpg" alt="">
+          <p>La playa más cercana es <a id="torre" target="_blank" href="https://www.google.com/maps/dir/Los+Marines/Playa+de+Torre+del+Mar,+Paseo+Mar%C3%ADtimo+de+Pte.,+2,+29740+Torre+del+Mar,+M%C3%A1laga/@36.7450497,-4.1494831,12.56z/data=!4m14!4m13!1m5!1m1!1s0xd72687d9f08ad9b:0x886c89089d2dbb60!2m2!1d-4.2258258!2d36.9209272!1m5!1m1!1s0xd7247bdf0ff2241:0x8c8af67b9a4ebae7!2m2!1d-4.0911298!2d36.7393895!3e0">Torre del mar</a> que se encuentra a menos de 27KM en linea recta y unos 25 minutos en coche.</p>
+        </div>
+        <div class="contenedorsvg">
+          <img class="svg" src="images/barbacoa.svg" alt="barbacoa">
+         <img class="carta" src="images/barbacoa.jpeg" alt="">
+          <p>La casa cuenta con una barbacoa, estan incluidos los utensilios básicos para su uso y la leña se podra incluir con un precio a parte.</p>
+        </div>
+        <div class="contenedorsvg">
+          <img class="svg" src="images/pool.svg" alt="pool">
+         <img class="carta" src="images/piscina2.jpeg" alt="">
+          <p>La casa cuenta con un recinto donde hay una piscina de 8x4x1.75m (parte menos profunda 1,4m) y una ducha.</p>
+        </div>
+        <div class="contenedorsvg">
+          <img class="svg" src="images/fireplace.svg" alt="fireplace">
+        <img class="carta" src="images/salon.jpeg" alt="">
+          <p>En el salón principal hay una pequeña chimenea capaz de calentar todo el salón. <br>La madera se incluirá con un precio a parte.</p>
+        </div>
+        <div class="contenedorsvg">
+          <img class="svg" src="images/garden.svg" alt="garden">
+        <img class="carta" src="images/garden.jpeg" alt="">
+          <p>La casa cuenta con varios lugares exteriores con diferentes tipos de plantas, además de un "parque" que cuenta con 2 columpios.</p>
+        </div>
+      </section>
+      <div class="scroll" id="ubicacion"></div>
+      <div class="titulos">
+        <img class="imgtitulos" src="images/location.svg" alt="home">
+        <h1>Ubicación</h1>
+      </div>
+      <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35314.127369223694!2d-4.246175910949126!3d36.92127756738157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDU1JzE5LjQiTiA0wrAxMyc0Mi4yIlc!5e0!3m2!1ses!2ses!4v1626257341505!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+      <div class="scroll" id="sitios"></div>
+      <div class="titulos">
+        <img class="imgtitulos" src="images/sitios.svg" alt="home">
+        <h1>Sitios cerca y actividades</h1>
+      </div>
+      <section class="">
+        <div class="sitios">
+          <img class="sitio1" src="images/vilo.jpg" alt="">
+            <h2 class="margen">Baños de vilo</h1>
+            <p class="textturism">Los baños de vilo es una pileta de agua o balneario árabe que cuenta con unas extraordinarias aguas sulfhídricas, magnésico-cálcica y nitrogenadas, que brotan a 21 grados centígrados y cuyas propiedades curativas están especialmente indicadas para enfermedades de la piel.
+              <br>
+              Este está <a style="color: #483018;" target="_blank" href="https://www.google.com/maps/place/Ba%C3%B1os+de+Vilo/@36.9505082,-4.2087775,17z/data=!3m1!4b1!4m5!3m4!1s0xd7268c414183063:0xa59c52428e578e94!8m2!3d36.950496!4d-4.2065355">ubicado</a> en Guaro a unos 2 km de Periana.
+            </p>
+        </div>
+        <div class="sitios">
+          <img class="sitio2" src="images/pantano.jpg" alt="">
+            <h2 class="margen" >Pantano de la Viñuela</h1>
+              <p class="textturism">Un embalse con capacidad de 170 hm³ y tiene 565 hectareas, es el embalse con mayor capacidad de Málaga. Se pueden practicar deportes náuticos, senderismo o realizar una barbacoa en <a style="color: #483018;" target="_blank" href="https://www.google.com/maps/search/la+romeria+de+periana/@36.9069941,-4.1930631,15z?hl=es">La romería de Periana</a>. También podrás encontrar restaurantes y además hay un camping cercano.
+                Este está <a style="color: #483018;" target="_blank" href="https://www.google.com/maps/place/Embalse+de+la+Vi%C3%B1uela/@36.8724852,-4.1571337,12.78z/data=!4m5!3m4!1s0xd7269dfa3cb3cfd:0xcd4a6c320ba8d55d!8m2!3d36.8785087!4d-4.1692941">ubicado</a> cerca del pueblo La Viñuela y Los Romanes.
+              </p>
+        </div>
+        <div class="sitios">
+          <img class="sitio1" src="images/saltillo.jpg" alt="">
+            <h2 class="margen" >Puente colgante El saltillo</h1>
+              <p class="textturism">Un puente de 50m de longitud a una altura de 78m que ofrece unas vistas increibles, es el 3º puente más grande de España en espacios naturales y aqui además de este puente tambien hay varias rutas de senderismo por el monte.
+                <br>
+                Este está <a style="color: #483018;" target="_blank" href="https://www.google.com/search?q=el+saltillo+canillas+de+aceituno&rlz=1C1ALOY_esES956ES956&tbm=lcl&sxsrf=ALeKk03Iy5DJ_J5dKb5yzPKquDwVG4YdwQ%3A1627820506811&ei=2pEGYc2UMcf2gQbHnLOwAw&oq=el++canillas+de+aceituno&gs_l=psy-ab.3.0.0i7i30k1l8j0i7i5i30k1l2.10482.10812.0.12073.3.3.0.0.0.0.148.408.0j3.3.0....0...1c.1.64.psy-ab..0.3.406....0.4zgd5gDeD88#rlfi=hd:;si:;mv:[[36.886898177319026,-4.048020378796227],[36.88653822268097,-4.048470421203774]]">ubicado</a> en el pueblo de Canillas de aceituno.
+              </p>
+        </div>
+        <div class="sitios">
+          <img class="sitio2" src="images/olivo.jpg" alt="">
+            <h2 class="margen">Árboles milenarios</h1>
+              <p class="textturism">
+                En esta ruta encontraras olivos con perimetro de 7.4, 5.5, 6.5 m entre otros, los cuales corresponden a 1500, 1000 y 1200 años de antiguedad. En su recorrido se disfruta de la huella que el tiempo ha dejado en estos olivos convirtiéndoles en verdaderas esculturas artísticas.
+                Este está <a style="color: #483018;" target="_blank" href="https://www.google.com/maps/place/ACEITE+VERDIAL+PERIANA/@36.9204668,-4.1661446,11.08z/data=!4m9!1m2!2m1!1sruta+olivos+centenarios+periana!3m5!1s0xd726901d260291b:0xaf9fedce0ce22873!8m2!3d36.926722!4d-4.191299!15sCh9ydXRhIG9saXZvcyBjZW50ZW5hcmlvcyBwZXJpYW5hWiEiH3J1dGEgb2xpdm9zIGNlbnRlbmFyaW9zIHBlcmlhbmGSARVvbGl2ZV9vaWxfY29vcGVyYXRpdmWaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkJaM0F5TVRoQlJSQUI">ubicado</a> en el pueblo de Periana.
+              </p>
+        </div>
+      </section>
+      <div class="scroll" id="fotos"></div>
+      <div class="titulos">
+        <img class="imgtitulos" src="images/galeria.svg" alt="home">
+        <h1>Galería de Fotos</h1>
+      </div>
+      <section class="contengaleria">
+        <div class="galeria">
+          <div class="row">
+            <div class="column">
+              <img class="galeriaimg" src="images/barbacoa.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img class="galeriaimg" src="images/bañochico.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img class="galeriaimg" src="images/bañoex.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img class="galeriaimg" src="images/casa.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img class="galeriaimg" src="images/cocina.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img class="galeriaimg" src="images/bañorojo.jpeg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img class="galeriaimg" src="images/cuartochico.jpeg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img class="galeriaimg" src="images/piscina.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            </div>
+          </div>
+        </div>
+        <div class="galeria">
+          <div class="column">
+            <img class="galeriaimg" src="images/salon.png"onclick="openModal();currentSlide(9)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img class="galeriaimg" src="images/plantas.jpeg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img class="galeriaimg" src="images/puerta.jpeg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+          </div>
+          <div class="column">
+              <img class="galeriaimg" src="images/vistas.jpeg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img class="galeriaimg" src="images/bañoverde.jpeg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img class="galeriaimg" src="images/comedor.jpeg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img class="galeriaimg" src="images/habitacionsalon.jpeg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img class="galeriaimg" src="images/matrimonio.jpeg" onclick="openModal();currentSlide(16)" class="hover-shadow">
+          </div>
+        </div>
+      </section>
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+        <div class="mySlides">
+        <div class="numbertext">1 / 16</div>
+        <img src="images/barbacoa.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 16</div>
+      <img src="images/bañochico.jpeg" style="width:100%">
+      </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 16</div>
+      <img src="images/bañoex.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 16</div>
+      <img src="images/casa.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 16</div>
+      <img src="images/cocina.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 16</div>
+      <img src="images/bañorojo.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">7 / 16</div>
+      <img src="images/cuartochico.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">8 / 16</div>
+      <img src="images/piscina.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 16</div>
+      <img src="images/salon.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 16</div>
+      <img src="images/plantas.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">11 / 16</div>
+      <img src="images/puerta.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">12 / 16</div>
+      <img src="images/vistas.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">13 / 16</div>
+      <img src="images/bañoverde.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">14 / 16</div>
+      <img src="images/comedor.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">15 / 16</div>
+      <img src="images/habitacionsalon.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">16 / 16</div>
+      <img src="images/matrimonio.jpeg" style="width:100%">
+    </div>
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    </article>
+    <script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+  </body>
+  <footer>
+    <div class="footer">
+      <h3>✉ Casera: <a class="enfooter" href="mailto:isabelgamez1963@email.com">isabelgamez1963@gmail.com</a></h3>
+      <h3>✉ Web creator: <a class="enfooter" href="mailto:alejandromostazo39@email.com">alejandromostazo39@gamil.com</a></h3>
+    </div>
+    <div class="">
+      <img id="imgfooter" src="images/logofooter.png" alt="logo">
+    </div>
+    <div class="footer">
+      <h3>Web by:</h3>
+      <h3>Alejandro Mostazo &copy;</h3>
+    </div>
+  </footer>
+</html>
